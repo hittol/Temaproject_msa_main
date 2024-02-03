@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  httpd:
+    container_name: project_main_http
+    build: ./httpd_main_signup
+
+  tomcat:
+    container_name: project_main_tomcat
+    build: ./tomcat_main_signup
